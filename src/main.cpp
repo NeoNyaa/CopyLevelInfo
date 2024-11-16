@@ -20,12 +20,9 @@ class $modify(InfoLayer) {
 		
 		// Get the ID of the level and store it in a variabled called "ytVideoDescLevelID" for later use
 		std::string ytVideoDescLevelID = std::to_string(this->m_level->m_levelID.value());
-
-		// Get the ID of the level song and store it in a variabled called "ytVideoDescSongLink" for later use
-		std::string ytVideoDescSongLink = std::to_string(this->m_level->m_songID);
 		
 		// Prepare and copy the formatted data above to the clipboard for easy pasting wherever the user wants
-		clipboard::write(fmt::format("{}\n{}\nLevel ID: {}\nSong: https://www.newgrounds.com/audio/listen/{}\n", ytVideoTitle, ytVideoDivider, ytVideoDescLevelID, ytVideoDescSongLink));
+		clipboard::write(fmt::format("{}\n{}\nLevel ID: {}\n", ytVideoTitle, ytVideoDivider, ytVideoDescLevelID));
 
 		// Notify the player to let them know that all the level information has been copied to their clipboard
 		Notification::create(("Level info copied to clipboard!"), CCSprite::create("Copy.png"_spr), 3)->show();
