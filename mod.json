@@ -1,8 +1,6 @@
 {
   "geode": "4.2.0",
-  "gd": {
-    "win": "2.2074"
-  },
+  "gd": "*",
   "version": "v1.2.0",
   "id": "neonyaa.copylevelinfo",
   "name": "Copy Level Info",
