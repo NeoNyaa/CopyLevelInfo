@@ -8,3 +8,6 @@
  * Updated to GD v2.2074 and Geode V4
  * Instead of hijacking the copy level id button, the mod now creates a new button entirely
  * Removed the song ID copy code as the introduction of songs that arent on newgrounds makes any level which uses nongs point to invalid links
+
+# v1.2.1
+ * Fix old mod.json syntax!?!?!?!?
