@@ -1,21 +1,23 @@
 {
-	"geode": "4.0.0-beta.1",
-	"gd": {
-		"win": "2.207"
-	},
-	"version": "v1.1.0",
-	"id": "neonyaa.copy_level_info",
-	"name": "Copy Level Info",
-	"developer": "NeoNyaa",
-	"description": "A simple mod which allows the user to copy the level name and ID to the clipboard.",
-	"tags": [
+  "geode": "4.2.0",
+  "gd": {
+    "win": "2.2074"
+  },
+  "version": "v1.2.0",
+  "id": "neonyaa.copylevelinfo",
+  "name": "Copy Level Info",
+  "developer": "NeoNyaa",
+  "description": "A mod to copy level name/ID to the clipboard",
+  "tags": [
         "enhancement",
         "interface",
         "utility"
     ],
-	"resources": {
-		"sprites": [
-			"resources/Copy.png"
-		]
-	}
+  "resources": {
+    "spritesheets": {
+      "CopyLevelInfo": [
+        "resources/*.png"
+      ]
+    }
+  }
 }
